@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mywolfpackguide.Settings" >
+    <item android:id="@+id/action_logout" android:title="Logout" android:orderInCategory="2"></item>
+    <item android:id="@+id/action_home" android:title="Home" android:orderInCategory="3"></item>
+
+</menu>

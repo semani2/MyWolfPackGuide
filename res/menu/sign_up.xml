@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mywolfpackguide.SignUpActivity" >
+    <item android:id="@+id/action_login" android:title="Login" android:orderInCategory="1"></item>
+
+</menu>

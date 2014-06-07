@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mywolfpackguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mywolfpackguide.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.LoggedIn"
+            android:label="@string/title_activity_logged_in" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.AllEvents"
+            android:label="@string/title_activity_all_events" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.MyEvents"
+            android:label="@string/title_activity_my_events" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.UpdatePassword"
+            android:label="@string/title_activity_update_password" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.UpdateInterests"
+            android:label="@string/title_activity_update_interests" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.AllEventsNew"
+            android:label="@string/title_activity_all_events_new" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.InterestEvents"
+            android:label="@string/title_activity_interest_events" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.EventHomePage"
+            android:label="@string/title_activity_event_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.EventAttendees"
+            android:label="@string/title_activity_event_attendees" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.SearchEvents"
+            android:label="@string/title_activity_search_events" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.UserEvents"
+            android:label="@string/title_activity_user_events" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.TwitterShare"
+            android:label="@string/title_activity_twitter_share" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.MyInterests"
+            android:label="@string/title_activity_my_interests" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.HomeActivity"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name="com.example.mywolfpackguide.EventByCategory"
+            android:label="@string/title_activity_event_by_category" >
+        </activity>
+    </application>
+
+</manifest>

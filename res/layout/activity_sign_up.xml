@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    tools:context="com.example.mywolfpackguide.SignUpActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textemailId_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textname"
+        android:layout_below="@+id/textname"
+        android:layout_marginTop="31dp"
+        android:text="Email Id:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textpwd_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textemailId_signup"
+        android:layout_below="@+id/textemailId_signup"
+        android:layout_marginTop="26dp"
+        android:text="Password:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textconPwd_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textpwd_signup"
+        android:layout_below="@+id/textpwd_signup"
+        android:layout_marginTop="29dp"
+        android:text="Confirm Password:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textname"
+        android:layout_toRightOf="@+id/textconPwd_signup"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editemailid_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textemailId_signup"
+        android:layout_alignLeft="@+id/editname"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editpwd_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editemailid_signup"
+        android:layout_alignTop="@+id/textpwd_signup"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editconpwd_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textconPwd_signup"
+        android:layout_alignLeft="@+id/editpwd_signup"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textconPwd_signup"
+        android:layout_marginTop="82dp"
+        android:layout_toRightOf="@+id/textemailId_signup"
+        android:text="Register" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/listView1"
+        android:layout_alignParentRight="true"
+        android:text="Sign Up"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#FF4444"
+        android:textColor="@color/Black"
+         android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
